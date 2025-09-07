@@ -1,0 +1,288 @@
+
+/* Documentation Landing Styles */
+.documentation-landing {
+  background: #F1EFE7;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+}
+
+/* Documentation Section */
+.documentation-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.documentation-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #374151;
+  margin-bottom: 2rem;
+}
+
+.documentation-description {
+  font-size: 1.1rem;
+  color: #6b7280;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+  text-align: left;
+}
+
+.documentation-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.doc-feature-block {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.doc-feature-block:hover {
+  border-color: #374151;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.doc-feature-block p {
+  margin: 0;
+  font-weight: 600;
+  color: #374151;
+  font-size: 1.1rem;
+}
+
+/* Platform Description Section */
+.platform-description-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.platform-description {
+  font-size: 1.1rem;
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.platform-visual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.dashboard-section {
+  background: #1f2937;
+  border-radius: 1rem;
+  padding: 2rem;
+  color: white;
+  position: relative;
+}
+
+.dashboard-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cta-btn {
+  background: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.cta-btn:hover {
+  background: white;
+  color: black;
+}
+
+.analytics-img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Key Features Section */
+.key-features-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.key-features-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #374151;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.key-features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.key-feature-card {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.key-feature-card:hover {
+  border-color: #374151;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.key-feature-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 1rem 0;
+}
+
+.key-feature-card p {
+  color: #6b7280;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Team Section */
+.team-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #374151;
+  margin-bottom: 3rem;
+}
+
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.team-card {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.team-card:hover {
+  border-color: #374151;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.team-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1.5rem auto;
+  display: block;
+}
+
+.team-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 0.5rem 0;
+}
+
+.team-role {
+  font-size: 1rem;
+  color: #6b7280;
+  margin: 0 0 0.5rem 0;
+  font-weight: 500;
+}
+
+.team-email {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  margin: 0;
+}
+
+/* Hero Container Styles */
+.hero-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.hero-section {
+  position: relative;
+  height: 85vh;
+  overflow: hidden;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .documentation-landing {
+    padding: 2rem 1rem;
+  }
+  
+  .documentation-section h1 {
+    font-size: 2rem;
+  }
+  
+  .documentation-features {
+    grid-template-columns: 1fr;
+  }
+  
+  .platform-visual {
+    grid-template-columns: 1fr;
+  }
+  
+  .key-features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .team-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+  }
+  
+  .hero-section {
+    height: 70vh;
+  }
+}

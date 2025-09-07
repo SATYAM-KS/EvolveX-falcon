@@ -1,0 +1,67 @@
+{
+  "name": "evolvex-blockfree",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Decentralized freelancing platform built on Aptos blockchain",
+  "keywords": ["blockchain", "freelancing", "aptos", "move", "react", "web3"],
+  "author": "EVOLVEX Team",
+  "license": "MIT",
+  "homepage": "https://github.com/evolvex-blockfree/evolvex-blockfree#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evolvex-blockfree/evolvex-blockfree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evolvex-blockfree/evolvex-blockfree/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "setup": "node scripts/setup.js",
+    "postinstall": "node scripts/setup.js"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^4.0.0",
+    "@aptos-labs/wallet-adapter-ant-design": "^5.1.3",
+    "@aptos-labs/wallet-adapter-react": "^7.0.4",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.8",
+    "@splinetool/react-spline": "^4.0.0",
+    "antd": "^5.27.3",
+    "axios": "^1.8.4",
+    "chart.js": "^4.4.8",
+    "firebase": "^12.2.1",
+    "js-sha3": "^0.9.3",
+    "lucide-react": "^0.483.0",
+    "pdfjs-dist": "^5.0.375",
+    "prismjs": "^1.30.0",
+    "react": "^19.0.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.4.0",
+    "react-simple-code-editor": "^0.14.1",
+    "react-syntax-highlighter": "^15.6.1",
+    "recharts": "^2.15.1",
+    "remark-gfm": "^4.0.1",
+    "rollup": "^4.36.0",
+    "sha256": "^0.2.0",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "vite": "^6.2.0"
+  }
+}

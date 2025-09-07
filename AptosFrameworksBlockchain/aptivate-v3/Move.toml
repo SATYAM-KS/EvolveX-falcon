@@ -1,0 +1,12 @@
+[package]
+name = "aptivate-v0"
+version = "1.0.0"
+authors = ["Falcons"]
+
+[addresses]
+# This is required because your code uses @aptivate_admin
+aptivate_admin = "2c449df63159be31e0482f03613355693bacd22b58419dd0d85c342346a615b6"
+
+[dependencies]
+# This is the more standard and reliable format
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet" }

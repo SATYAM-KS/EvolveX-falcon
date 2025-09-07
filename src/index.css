@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: hor;
+  src: url(./assets/horizon.otf);
+}
+
+:root{
+  --w-c: #ffffff;
+  --b-c: #000000;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  padding: 0;
+}
+input:focus-within {
+  outline: none;
+  stroke: none;
+  color: var(--w-c);
+}
+input:focus-visible,input:focus {
+  outline: none;
+  color: var(--w-c);
+  stroke: none;
+}
+input{
+  /* filter: invert(1); */
+  color: var(--w-c);
+  background-color: #000000;
+}
+#root {
+  background-color: var(--w-c);
+}

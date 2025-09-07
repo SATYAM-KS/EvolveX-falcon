@@ -1,0 +1,12 @@
+[package]
+name = "freelance"
+version = "1.0.0"
+authors = ["Falcons"]
+
+[addresses]
+freelance_admin = "e6ee8785247e99489bcc43dc5518e44c3cf3cf71f028dd48c306b87254797e0f"
+[dev-addresses]
+
+[dependencies]
+# This is the more standard and reliable format
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet" }
