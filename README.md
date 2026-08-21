@@ -3,7 +3,7 @@
 <div align="center">
   <img src="public/EVO.splinecode" alt="EVOLVEX Logo" width="200" height="200"/>
   
-  <h3>🚀 Decentralized Freelancing Platform based on Aptos Blockchain</h3>
+  <h3>🚀 Decentralized Freelancing Platform on Aptos Blockchain</h3>
   
   <p>A revolutionary blockchain-based freelancing platform that connects developers, verifiers, and clients in a secure, transparent, and efficient ecosystem.</p>
   
